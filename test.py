@@ -3,7 +3,7 @@ from io import BytesIO
 from PIL import Image
 
 # Remplacez par l'adresse de votre API
-url = "http://localhost:8000/predict"
+url = "http://127.0.0.1:42504/predict"
 
 # Ouvrir et rogner l'image
 image1 = Image.open("dog.jpeg")
@@ -27,7 +27,7 @@ for idx, image in enumerate(images):
     except Exception as e:
         print("Erreur:", e)
 
-url = "http://localhost:8000/predict_image"  # Remplacez par l'URL exacte de votre API
+url = ("http://127.0.0.1:42504/predict_image")  # Remplacez par l'URL exacte de votre API
 
 # Ouvrez l'image en mode binaire
 with open("dog.jpeg", "rb") as image_file:
