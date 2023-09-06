@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monapp-v3
+spec:
+  selector:
+    matchLabels:
+      app: monapp-v3
+  template:
+    metadata:
+      labels:
+        app: monapp-v3
+    spec:
+      containers:
+      - name: monapp-v3
+        image: ppjfelesang/monapp-v3:tag  # Don't forget the tag if you have multiple versions
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8000
