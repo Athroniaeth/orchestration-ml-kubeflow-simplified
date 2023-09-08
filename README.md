@@ -1,5 +1,8 @@
 # orchestration-ml-kubeflow-simplified
-Ceci est le projet "Orchestration ML Kubeflow" qui à été simplifier pour être plus facilement "debuger" et "analyser" par le correcteur, vous pouvez retrouver le projet comme nous contions le faire sur ce lien "https://github.com/Athroniaeth/orchestration-ml-kubeflow". Vous pouvez retrouver la documentation / présentation du projet (qui est le même contenu du README.MD avec les images) sur ce lien : "https://docs.google.com/document/d/1LijRjtkPeytP10yCTLhzfp_WO5_ThMULkHGm2Dg9ITE/edit?usp=sharing"
+Ceci est le projet "Orchestration ML Kubeflow" qui à été simplifier pour être plus facilement "debuger" et "analyser" par le correcteur, vous pouvez retrouver le projet comme nous contions le faire sur ce lien "https://github.com/Athroniaeth/orchestration-ml-kubeflow". Vous pouvez retrouver la documentation / présentation du projet (qui est le même contenu du README.MD avec les images) sur ce lien :
+
+- Document Word : https://docs.google.com/document/d/1LijRjtkPeytP10yCTLhzfp_WO5_ThMULkHGm2Dg9ITE/edit?usp=sharing
+- Docker Hub : https://hub.docker.com/repository/docker/ppjfelesang/monapp-v3/general
 
 ## Projet Choisi:
 Le projet utilise un dataset disponible sur Roboflow Universe, spécifiquement conçu pour entraîner des modèles de détection d'objets basés sur l'architecture YOLOv8. Le lien vers le dataset est le suivant : Roboflow Universe Dataset.
