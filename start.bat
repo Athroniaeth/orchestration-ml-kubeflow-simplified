@@ -1,5 +1,3 @@
-cd C:\Users\pierr\OneDrive\Bureau\Projet\kubeflow_simplifier
-
 minikube stop
 minikube delete
 minikube start --driver=docker
